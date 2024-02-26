@@ -1,0 +1,40 @@
+[
+	{
+		"id": <my_module_id>,
+		"type": "module",
+		"slug": "module_<my_module_id>",
+		"detail": false,
+		"detail_template": "templates/blank_page",
+		"detail_default_layout": "default",
+		"sz": false,
+		"sz_updated": true,
+		"sz_display_type": "404",
+		"use_standard_fields": true,
+		"system_fields": {
+			"module_field_<my_module_id>_1": {
+				"name": "Title",
+				"type": "input_text",
+				"live": true,
+				"required": false
+			},
+			"module_field_<my_module_id>_2": {
+				"name": "Description",
+				"type": "textarea",
+				"live": true,
+				"required": false
+			},
+			"module_field_<my_module_id>_3": {
+				"name": "Image",
+				"type": "image",
+				"live": true,
+				"required": false
+			},
+			"module_field_<my_module_id>_4": {
+				"name": "Image Alt",
+				"type": "input_text",
+				"live": true,
+				"required": false
+			}
+		}
+	}
+]
